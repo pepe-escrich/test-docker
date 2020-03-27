@@ -50,5 +50,11 @@
 			</plugin>			
 		</plugins>
 	</build>
-
+	<distributionManagement>
+	   <repository>
+	     <id>github</id>
+	     <name>GitHub OWNER Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/pepe-escrich/test-docker</url>
+	   </repository>
+	</distributionManagement>
 </project>
